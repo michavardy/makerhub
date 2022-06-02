@@ -41,23 +41,49 @@
 ### add / status / commit 
 1. cd into makerhub directory
 2. add a new sub directory called test
-3. add a new file in subdirectory test called test1
-4. add the first sentence of [lorem ipsum] (https://www.lipsum.com/feed/html) 
-### github clone / fork / pr
+3. add a new file in subdirectory test called test1.txt
+4. add the first sentence of [lorem ipsum](https://www.lipsum.com/feed/html) to test1.txt
+5. type  git add .
+6. type  git status
+   - verify that you have staged changes to be commited
+7. type git commit -m "test"
+    - verify that there were changes made to main
+### github fork
+1. delete makerhub directory
+2. go to projects directory
+3. type gh repo fork http://github.com/michavardy/makerhub
 ### git branch
-### git init
+1. type git branch
+   - verify that you are in the main branch
+   - verify that there are no other branches
+2. type git checkout -b test_branch
+3. type git branch
+   - verify that you are in the test_branch
+   - verify that there is the main branch
+4. add a new subdirectory called branch_test
+5. add a new file to the subdirectory called branch_test.txt
+6. add the first sentence of [lorem ipsum](https://www.lipsum.com/feed/html) to branch_test.txt
+7. commit these changes
+8. type git checkout main
+9. type git branch
+   - verify that you have transfered branches to the main branch
+10. type ls
+    - verify that the sub directory branch_test is not here (its in the test_branch branch)
+### git pr
+1. type gh pr create 
+2. follow prompt to create pr
 ---
 ## simple exercise
 1. makerhub contribution
-   - add a new directory to makerhub project
-   - issue pr
-2. contribution
+   - add a new directory to makerhub fork
+2. branch
+   - make a new branch to makerhub call it by your name
+   - issue a pr
+3. contribution
    - find a very simple github repo and fork it
    - make a small change
    - issue a pr
-3. branch
-   - make a new branch to makerhub call it by your name
-   - issue a pr
+
 ---
 ## Cheat sheet Construction
 - make a cheat sheet with all relevant commands
