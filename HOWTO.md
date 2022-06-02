@@ -25,6 +25,8 @@
 - ```git branch -d <branch_name>```
 
 # Github CLI
+## new repo
+- ``` gh repo create <repo_name> --public```
 ## clone repo
 - ```gh repo clone <repository> [<directory>] [-- <gitflags>...]```
 ## fork repo
