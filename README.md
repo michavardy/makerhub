@@ -18,18 +18,22 @@ Makerhub is currently focused on genetic algorithem study and applciation
 - meeting link for 09.06.22 at 21:00: 
 - https://us05web.zoom.us/j/84904315139?pwd=WWFDOFM0KzVJT1ZqL1JMZldNR2pldz09
 # Projects
-current project is evolution simulation
-please rview reference material in the following order
-path: MAKERHUB/projects/evolution_simulations
+#### evolution simulation
+please review reference material in the following order
+#### path: 
+MAKERHUB/projects/evolution_simulations
 1. game_of_life
 2. biosim4
 3. Bibits
 4. genetic_algorithem
 5. genetic_optimization
 # Tutorials
-path: /MAKERHUB/tutorials/
-order: tutorial order is required 
-contact: michavardy@gmail.com 
+#### path: 
+/MAKERHUB/tutorials/
+#### order: 
+tutorial order i
+s required 
+#### contact: michavardy@gmail.com 
 - week 1:
   - OS.md
   - git.md
