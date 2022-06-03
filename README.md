@@ -3,12 +3,12 @@ Makerhub is a entity centered around project based learning of modern digital op
 # Genetric Algorithem
 Makerhub is currently focused on genetic algorithem study and applciation
 # Goals
-Makerhub short term goals are:
+### Makerhub short term goals are:
 - master modern digital open source tools for digital development
 - study and apply genetic algorithems for a selection of hard problems
 - participate in GECCO 2023 conference (hopefully submit some papers)
 - start up some specific applications of genetic algorithems and get external funding
-Makerhub long term goals are:
+### Makerhub long term goals are:
 - effectivly document and pass digital knowlage 
 - persue interesting projects that involve digital simulation
 - solve hard problems using computers
