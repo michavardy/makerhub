@@ -65,23 +65,29 @@ A strict equality operator === checks the equality without type conversion.
 ### equality with null and undefined
 for non strict equality
 
-
 ```
-    console.log( null > 0 );  // (1) false
-    console.log( null == 0 ); // (2) false
-    console.log( null >= 0 ); // (3) true
     console.log( null === undefined ); // false
     console.log( null == undefined ); // true
 ```
 ### comparison with null
-null/undefined are converted to numbers: null becomes 0, while undefined becomes NaN
+- null/undefined are converted to numbers: null becomes 0, while undefined becomes NaN
+- this only applies to comparison operators and not identity check operator ==
+```
+    console.log( null > 0 );  // (1) false
+    console.log( null == 0 ); // (2) false
+    console.log( null >= 0 ); // (3) true
+```
 
 ---
 ## simple exercise
 1. guess if the following comparisons are true or false, evaluate using node
    - 'z' > 'ab'
    - 'abc' <= 'abC'
-   - '1' < '2'
+   - '2' < '12'
+   - undefined == null
+   - undefined === null
+   - null == "\n0\n"
+   - null === +"\n0\n"
 --- 
 ## Cheat sheet Construction
 - write a cheat sheet of everything learned in this section
