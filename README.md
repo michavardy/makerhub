@@ -1,7 +1,9 @@
 # What is MakerHub
 Makerhub is a entity centered around project based learning of modern digital open source tools.
 # Genetric Algorithem
-Makerhub is currently focused on genetic algorithem study and applciation
+Makerhub is currently focused on genetic algorithem study and application.  
+# Problem type
+Genetic Algorithems are well suited for problems that evaluation of a single solution is easy but finding the optimum solution among a large number of possible solutions is difficult.  some examples are Waze path-finding, non supervised clustering like image recognition cat or dog.
 # Goals
 ### Makerhub short term goals are:
 - master modern digital open source tools for digital development

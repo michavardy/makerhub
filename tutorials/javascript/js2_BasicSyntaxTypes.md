@@ -115,25 +115,8 @@
     - a dollar sign
     - an underscore
   - variable names are case sensitive
-- Naming Convention
-  - Hyphens
-    - first-name
-    - last-name
-    - city-name
-  - underscore
-    - first_name
-    - last_name
-    - city_name
-  - Pascal Case
-    - FirstName
-    - LastName
-    - CityName
-  - Camal Case:
-    - firstName
-    - lastName
-    - cityName
-### **convention **
- - Variable naming is one of the most important and complex skills in programming. A quick glance at variable names can reveal which code was written by a beginner versus an experienced developer.
+- cases can be referenced here: /MAKERHUB/resources/naming_cases.md
+- name convention can be referenced here: /MAKERHUB/resources/naming_convention.md
 ### Rules for Nameing Variables
 ### basic syntax 3: variables
 ### var
