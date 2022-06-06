@@ -1,0 +1,11 @@
+# community project ideas
+- wood shop schedualar
+- clair schedualer
+- toranut switching app
+- work out scheduals (tal, yaakov)
+- unclaimed clothing display
+- hava schedualer
+- colbo deliveries
+- schedualer for dana and stav
+- money transfer ingred
+- sambusak or pizza ordering 
