@@ -136,6 +136,27 @@ we can also use the following syntax
   outer:
   for (let i = 0; i < 3; i++) { ... }
 ```
+### The "switch" statement
+A switch statement can replace multiple if checks. 
+- syntax
+```
+    switch(x) {
+    case 'value1':  // if (x ===  'value1')
+      ...
+      [break]
+
+    case 'value2':  // if (x ===  'value2')
+      ...
+      [break]
+
+    default:
+      ...
+      [break]
+  }
+```
+- The value of x is checked for a strict equality to the value from the first case (that is, value1) then to the second (value2) and so on.
+- If the equality is found, switch starts to execute the code starting from the corresponding case, until the nearest break (or until the end of switch).
+- If no case is matched then the default code is executed (if it exists).
 
 ---
 ## simple exercise
@@ -148,7 +169,7 @@ we can also use the following syntax
     }
   ```
 2. loop through all even numbers from 1 to 10
-3. loop through
+3. loop through all numbers divisible by 3 and less than 100
 ## harder problems
 - An integer number greater than 1 is called a prime if it cannot be divided without a remainder by anything except 1 and itself. In other words, n > 1 is a prime if it can’t be evenly divided by anything except 1 and n. For example, 5 is a prime, because it cannot be divided without a remainder by 2, 3 and 4. Write the code which outputs prime numbers in the interval from 2 to n. For n = 10 the result will be 2,3,5,7. P.S. The code should work for any n, not be hard-tuned for any fixed value.
 
