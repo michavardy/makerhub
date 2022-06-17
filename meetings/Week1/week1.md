@@ -7,10 +7,9 @@
 4. Intrduction to Genetic optimization
 5. Introduce industry problems
 6. talk about week 1 tutorials
-7. introduce week 2 tutorials
-8. additional students
-9. school credit
-10. feedback
+7. additional students
+8. school credit
+9. feedback
 
 ## Last Week
 1. we picked genetic algorithem
@@ -23,12 +22,12 @@
 - https://www.youtube.com/watch?v=wtTpY9th8HY
 
 ## Road Map
-1. basic computer tutorials 1-weeks
+1. basic computer tutorials 1-2 weeks
 2. javascript 4-6 weeks
 3. html + css 4-6 weeks
 4. projects: simple web app  2-weeks
-5. projects: the game of lif4-6 weeks
-6. projects: evolutionarsimulation: 6-8 weeks
+5. projects: the game of life 4-6 weeks
+6. projects: evolutionary simulation: 6-8 weeks
 7. projects genetic optimization: 3 months
 ### Total -Time: 9-10 months
 

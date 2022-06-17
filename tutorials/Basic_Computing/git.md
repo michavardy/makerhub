@@ -38,6 +38,7 @@
 ```
 ---
 ## **Tutorial**
+git config --global user.name <your name>
 ### add / status / commit 
 1. cd into makerhub directory
 2. add a new sub directory called test
