@@ -45,7 +45,7 @@
     - Comments
 - let in statement 1 is a variable assignment keyword
 - x, y, z in statment 1 are variables
-- x = 5 in statment 2 is a variable assignment, x is the variable, = is the equality operator and 2 is the value.
+- x = 5 in statment 2 is a variable assignment, x is the variable, = is the equality operator and 5 is the value.
 - console.log() is a logging operator that prints to terminal
 
 ### Types
@@ -143,11 +143,11 @@
     y = 6;
     z = x + y;
 ```
-- Always declare JavaScript variables with var,let, orconst.
+- Always declare JavaScript variables with var,let, or const.
 - The var keyword is used in all JavaScript code from 1995 to 2015.
 - The let and const keywords were added to JavaScript in 2015.
 - If you want your code to run in older browser, you must use var.
-- If you want a general rule: always declare variables with const.
+
 - If you think the value of the variable can change, use let.
 ### Scope
 - **Global Scope** : *Global variables can be accessed from anywhere in a JavaScript program*
@@ -157,8 +157,9 @@
 ```
     {
       let x = 2;
+      console.log(x)
     }
-    // x can NOT be used here
+
 ```
 ### var has no block scope
 ```
@@ -170,14 +171,12 @@
 ### let scope redeclaration
 ```
     let x = 10;
-    // Here x is 10
-
     {
     let x = 2;
-    // Here x is 2
+    console.log(x)
     }
+    console.log(x)
 
-    // Here x is 10
 ```
 ### Hoisting
 Hoisting is a wierd java script idea of assigning value to a variable before it has been declared.  its best not to be concerned with this currently.
@@ -195,7 +194,7 @@ Hoisting is a wierd java script idea of assigning value to a variable before it 
 ```
 ### multi-line assignment
 ```
-    let person = "John Doe",
+    let person2 = "John Doe",
     carName = "Volvo",
     price = 200;
 ```
@@ -206,9 +205,9 @@ Hoisting is a wierd java script idea of assigning value to a variable before it 
 in this case the variable studentName will have the value of undefined
 ```
     var carName = "car1";
-    var carName; \\ this will work
+    var carName; 
     let houseName = "house1";
-    let houseName; \\ this will break
+    let houseName; 
 ```
 ## Types
 ### numbers
@@ -222,11 +221,11 @@ in this case the variable studentName will have the value of undefined
 ### NaN
 - this is case sensitive
 ```
-    console.log( "not a number" / 2 ); // NaN, such division is erroneous
-    console.log( NaN + 1 ); // NaN
-    console.log( 3 * NaN ); // NaN
-    console.log( "not a number" / 2 - 1 ); // NaN
-    console.log(NaN ** 0); //
+    console.log( "not a number" / 2 ); 
+    console.log( NaN + 1 ); 
+    console.log( 3 * NaN ); 
+    console.log( "not a number" / 2 - 1 ); 
+    console.log(NaN ** 0); 
     console.log(Nan === 'nan')
 ```
 ### bigInt
@@ -272,15 +271,15 @@ in this case the variable studentName will have the value of undefined
 ```
 ### typeof
 ```
-    typeof undefined // "undefined"
-    typeof 0 // "number"
-    typeof 10n // "bigint"
-    typeof true // "boolean"
-    typeof "foo" // "string"
-    typeof Symbol("id") // "symbol"
-    typeof Math // "object"  (1)
-    typeof null // "object"  (2)
-    typeof console.log // "function"  (3)
+    typeof undefined 
+    typeof 0 
+    typeof 10n 
+    typeof true 
+    typeof "foo" 
+    typeof Symbol("id") 
+    typeof Math 
+    typeof null 
+    typeof console.log 
 ```
 ### typeConversion
 ```
@@ -311,7 +310,6 @@ in this case the variable studentName will have the value of undefined
    - name, 
    - age, 
    - school, 
-   - years_until_death,
 - write a string literal variable that outputs
   ' my name is ${name}, I am ${age} years old.  I go to ${school} school.  I have ${80-age} years to live.
 2. Law of Cosines: write a program that takes a general triangle dimensions of two sides and the angle between them.  define them as variables at the top of the script.  using the law of cosines calculate the third side and print it to the console.
