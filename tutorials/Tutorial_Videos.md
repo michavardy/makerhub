@@ -7,3 +7,5 @@
 4. MarkDown: https://drive.google.com/file/d/1DjreYYVGDyCT-fL_haDqSSMfxEdFispe/view?usp=sharing
 
 ## JavaScript
+5. js-1: https://drive.google.com/file/d/18ndIs0gG46O7A7RLc8m8OwcxfrbQ3Zu4/view?usp=sharing
+6. js-2: https://drive.google.com/file/d/1viRrw2quIWwoYrn51czYiO7uvZEDclOE/view?usp=sharing
